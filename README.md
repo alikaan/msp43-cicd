@@ -15,10 +15,10 @@ To build the Docker image, follow these steps:
 3. Run the following command to build the Docker image:
 
     ```sh
-    docker build -t ubuntu-ccs .
+    docker build -t ti-ccs:0.1 .
     ```
 
-    This command will create a Docker image with the tag `ubuntu-ccs`.
+    This command will create a Docker image with the tag `ti-ccs:0.1`.
 
 ## Running a Docker Container
 
@@ -28,7 +28,7 @@ To create and run a new Docker container from the built image, follow these step
 2. Run the following command to create and start a new container:
 
     ```sh
-    docker run -it ubuntu-ccs
+    docker run -it ti-ccs:0.1
     ```
 
     This command will start a new container and open an interactive terminal session.
