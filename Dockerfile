@@ -8,7 +8,7 @@ RUN apt update 2>/dev/null &&\
 	apt install -y curl wget unzip vim git-all man unzip 2>/dev/null &&\
 	apt install -y build-essential software-properties-common 2>/dev/nulL &&\
 	apt install -y ftp sshpass lftp 2>/dev/null &&\
-	apt install -y dos2unix 2>/dev/null
+	apt install -y dos2unix jq
 
 RUN mkdir -p /root/Downloads 
 
